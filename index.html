@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olives Rehabilitation Centre - CBC Primary School</title>
+  <style>
+    :root {
+      --blue:#2563EB; 
+      --green:#16A34A; 
+      --light-blue:#EFF6FF; 
+      --white:#FFF;
+      --dark:#1E293B;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+    
+    nav{
+      background:var(--white);
+      padding:15px 20px;
+      text-align:center;
+      position:sticky;top:0;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+      z-index:100;
+    }
+    nav a{
+      color:var(--dark);
+      margin:0 12px;
+      text-decoration:none;
+      font-weight:600;
+      font-size:15px;
+    }
+    nav a:hover{color:var(--blue)}
+    
+    .hero{
+      background:linear-gradient(rgba(37,99,235,0.85), rgba(22,163,74,0.85)), url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1920') center/cover;
+      color:var(--white); 
+      padding:100px 20px; 
+      text-align:center;
+    }
+    .hero h1{font-size:2.5rem;margin-bottom:10px}
+    .hero p{font-size:1.2rem;margin-bottom:20px}
+    
+    .btn{
+      padding:14px 28px;
+      border-radius:50px;
+      text-decoration:none;
+      margin:10px;
+      display:inline-block;
+      font-weight:bold;
+      transition:0.3s;
+    }
+    .btn-green{background:var(--green);color:var(--white)}
+    .btn-green:hover{background:#15803D;transform:scale(1.05)}
+    .btn-white{background:var(--white);color:var(--blue)}
+    .btn-white:hover{background:#F1F5F9;transform:scale(1.05)}
+    
+    .section{padding:60px 20px;max-width:1100px;margin:auto}
+    .section h2{text-align:center;color:var(--blue);font-size:2rem;margin-bottom:40px}
+    
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+    .card{
+      background:var(--white);
+      padding:30px;
+      border-radius:15px;
+      text-align:center;
+      box-shadow:0 5px 20px rgba(0,0,0,0.08);
+      border-top:4px solid var(--green);
+    }
+    .card h3{color:var(--green);margin-bottom:10px;font-size:1.3rem}
+    
+    .cta{
+      background:var(--light-blue);
+      text-align:center;
+      padding:60px 20px;
+    }
+    
+    footer{
+      background:var(--dark);
+      color:var(--white);
+      text-align:center;
+      padding:40px 20px;
+    }
+    footer a{color:var(--green);text-decoration:none}
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="admissions.html">Admissions</a>
+  <a href="fees.html">Fees</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<header class="hero">
+  <h1>OLIVES REHABILITATION CENTRE</h1>
+  <p>CBC Primary School | Playgroup to Grade 6</p>
+  <p>📍 Bombolulu "Vietnam", Opp. Salama Estate, Mombasa</p>
+  <a href="tel:0728326635" class="btn btn-green">📞 Call 0728 326 635</a>
+  <a href="admissions.html" class="btn btn-white">Apply Now</a>
+</header>
+
+<section class="section">
+  <h2>Why Parents Choose Olives</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>✅ CBC Competent</h3>
+      <p>Trained teachers delivering the Competency Based Curriculum with modern teaching methods</p>
+    </div>
+    <div class="card">
+      <h3>🏫 Safe & Accessible</h3>
+      <p>Located in a secure area at Vietnam, Opposite Salama Estate with easy transport</p>
+    </div>
+    <div class="card">
+      <h3>💻 Modern Facilities</h3>
+      <p>Computer Lab, Library, Spacious Playgrounds and Clean Classrooms</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2 style="color:var(--blue)">Admissions Open for 2026</h2>
+  <p style="margin:20px 0">Join us from Playgroup to Grade 6. Limited slots available.</p>
+  <a href="admissions.html" class="btn btn-green">Enroll Your Child Today</a>
+</section>
+
+<footer>
+  <p><b>Olives Rehabilitation Centre Primary School</b></p>
+  <p>Bombolulu, Mombasa | Phone: <a href="tel:0728326635">0728 326 635</a></p>
+  <p style="margin-top:15px">© 2026 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
