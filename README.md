@@ -1,1 +1,1 @@
-# olives-school
+olives-school
